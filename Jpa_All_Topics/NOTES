@@ -1,0 +1,17 @@
+
+
+CRUD OPERATIONS 
+Functions = String Functions(upper,lower,substring,length)
+			Date Functions = actual date, year, month, day
+			Math Functions = first salary, average, max, min, count of records, sum
+			
+			
+
+Factory.java = creates instances of impl for service and dao
+JpaUtility.java = builds emf, from where we can build em
+
+CrudDaoImpl and other impl uses entityManager to do Transactions
+
+em.getTransaction().begin()
+em.persist()
+em.getTransaction().commit()
