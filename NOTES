@@ -1,0 +1,19 @@
+
+
+WORKING JPA project
+persistence.xml is used for database connections
+DML = data manipulation language
+the queries are written in daoImpl
+direct execution of queries using em and emf
+em and emf are created using JpaUtility using persistence.xml
+
+named queries are written in Entity class using @namedQueries
+jpQl queries using em.createQuery("query")
+
+
+some named queries are written in orm.xml
+
+JPQL.Functions -> contains query for string and date functions
+String = normal, upper, lower, substring, length
+Date = normal date, year, month ,day
+Math = Avg,count,sum,min,max
