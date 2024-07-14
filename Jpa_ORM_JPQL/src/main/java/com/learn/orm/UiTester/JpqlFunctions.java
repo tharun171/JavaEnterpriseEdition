@@ -17,7 +17,7 @@ public class JpqlFunctions {
 		
 		//DateFunctions();
 		
-		MathFunctions();
+		//MathFunctions();
 	}
 	public static List<Object> MathFunctions()
 	{
