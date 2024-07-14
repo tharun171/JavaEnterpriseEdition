@@ -15,7 +15,7 @@ import com.learn.springfrm.Entities.EmployeeEntity;
 import com.learn.springfrm.Service.EmpService;
 import com.learn.springfrm.resources.MainConfigJava;
 
-public class MainClass {
+public class MainClass{
 	
 	private static EmpService empService;
 	
@@ -27,9 +27,9 @@ public class MainClass {
 		// Use employeeService as needed
 		//saveEmployee();
 		// 1001 is the starting
-		//findEmployee(1015);
+		findEmployee(1015);
 		//find All Employees
-		findAll();
+		//findAll();
 
 		// Close the context when done
 		((ConfigurableApplicationContext) ac).close();
