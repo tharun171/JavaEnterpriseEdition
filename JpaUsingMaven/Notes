@@ -1,0 +1,11 @@
+
+
+
+Jpa using Maven using Persistence.xml
+
+
+Getting persistence.xml in meta-inf
+create meta-inf in src/main/resources
+
+build path -> project facets -> add jpa
+will get persistence.xml for you
