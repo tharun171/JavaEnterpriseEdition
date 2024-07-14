@@ -27,9 +27,9 @@ public class MainClass{
 		// Use employeeService as needed
 		//saveEmployee();
 		// 1001 is the starting
-		findEmployee(1015);
+		//findEmployee(1015);
 		//find All Employees
-		//findAll();
+		findAll();
 
 		// Close the context when done
 		((ConfigurableApplicationContext) ac).close();
