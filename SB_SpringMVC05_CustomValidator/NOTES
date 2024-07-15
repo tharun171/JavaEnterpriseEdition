@@ -1,0 +1,9 @@
+
+
+the messages_en.properties are validations
+for name field, created a custom name validator
+
+NameValidatorVal.java the name used as annotation @NameValidatorVal
+the Logic written in NameValidator
+
+validation goes to NameValidatorVal first and then it goes to NameValidator
