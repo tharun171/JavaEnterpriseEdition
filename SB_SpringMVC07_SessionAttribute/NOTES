@@ -1,0 +1,12 @@
+
+
+
+Using session attributes we are maintaining data through out the session
+@SessionAttributes("modelAttribute") at class level used to store the data 
+
+the request attribute can hold the data for only once and when we call it multiple times it returns null
+
+we can use modelMap to serve data through out the session
+
+when we add into @SessionAttributes()
+we can get the data using HttpSession.getAttribute("name give in sessionAttributes")
