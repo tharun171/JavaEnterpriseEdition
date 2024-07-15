@@ -1,0 +1,8 @@
+inheritance hierarchy in jpa
+
+
+we gave employee as abstract class
+so no one will create an instance of it
+
+
+
