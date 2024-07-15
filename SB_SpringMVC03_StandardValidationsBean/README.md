@@ -16,3 +16,8 @@ import jakarta.validation.constraints.PastOrPresent;
 import jakarta.validation.constraints.Size;  
 
 using jstl expression we show values in success page ${key.variable}  
+
+![image](https://github.com/user-attachments/assets/d44c92f9-6a27-4347-ade3-2cc7729463e1)
+
+![image](https://github.com/user-attachments/assets/26645587-abb6-4224-bd86-66934277f59c)
+
