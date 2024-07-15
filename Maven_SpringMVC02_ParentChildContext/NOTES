@@ -1,0 +1,14 @@
+
+
+//WORKING
+
+jars are added in classpath and from deployment assembly we added it
+
+web xml contains listener(parent) 
+= parentContext 
+= have dao and service
+
+
+
+contains dispatcher1-web  
+= have web controller and scans annotations
