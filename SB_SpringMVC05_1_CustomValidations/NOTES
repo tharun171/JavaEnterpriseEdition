@@ -1,0 +1,10 @@
+
+
+
+WORKING
+
+messages_en.properties are not configured in app.properties
+
+
+using @Configuration for a class, 
+we gave messages_en.properties
