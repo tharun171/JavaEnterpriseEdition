@@ -7,6 +7,6 @@ Spring forms tag
 
 
 web.xml contains  
-listener.xml - component scan
+listener.xml - component scan  
 dispatcher-web-servlet.xml = view resolver, controller scanning
 
