@@ -14,5 +14,7 @@ used CRudRepo (JpaRepository) to do CRUD operations,
  
  
 
-//excluded default tomcat server or DB config from App.properties
-//All configurations done using java
+//excluded default tomcat server or DB config from App.properties  
+//All configurations done using java  
+
+![image](https://github.com/user-attachments/assets/12681f94-d0a5-453c-9930-c0bbf57cd083)
