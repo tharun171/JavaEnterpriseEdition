@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings version="1.0"
+	xmlns="http://java.sun.com/xml/ns/persistence/orm"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/persistence/orm
+	http://java.sun.com/xml/ns/persistence/orm_1_0.xsd">
+	
+	
+	<!-- STRING Functions usage -->
+	<!-- 0 name
+	1 uppercase 2 lowercase
+	3 substring 4 length 
+	<named-query name="getAllEmployeeStringFunctions">
+		<query>
+			 substring name is msd we get ms -->
+			<!-- select k,UPPER(k.name),LOWER(k.name),SUBSTRING(k.name,1,2),LENGTH(k.name)
+			from EmployeeEntity k
+		</query>
+	</named-query>-->
+	
+	<!-- getting average MATH fucntions -->
+	<!-- 0 is e.role and 1 is avg(e.salary) 
+	<named-query name="getAverageSalaryForEmployeesByRole">
+		<query>
+			select e.role,avg(e.salary) from EmployeeEntity e group by e.role
+		</query>
+	</named-query>-->
+	
+	
+	<!-- Find all employees -->
+	<named-query name="findAllEmployee">
+		<query>
+			select e from EmployeeEntity e
+		</query>
+	</named-query>
+	
+	
+</entity-mappings>

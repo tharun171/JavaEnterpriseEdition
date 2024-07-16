@@ -1,0 +1,12 @@
+
+
+
+
+WORKING
+
+
+queries we can take from orm.xml
+queries are explicitly written in dao interface
+
+repository definition contains only methods we want to have
+Others methods we wont have, this allows us to have abstraction
