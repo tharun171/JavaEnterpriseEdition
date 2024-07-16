@@ -1,0 +1,18 @@
+
+
+ //Spring boot application  
+
+WORKING  
+
+Java Config used for Database  
+Hibernate Config, DataSource config  
+Autowiring Config,Transaction management  
+
+havent used persistence context and entitymanager to save  
+used CRudRepo (JpaRepository) to do CRUD operations,  
+ not entity manager  
+ 
+ 
+
+//excluded default tomcat server or DB config from App.properties
+//All configurations done using java
