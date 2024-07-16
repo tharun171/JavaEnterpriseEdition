@@ -11,6 +11,9 @@ application.properties contains the configuration.
 
 @SpringBootApplication(basePackages="")  
 
+Sharing data to multiple pages using @SessionAttribute at class level  
+![image](https://github.com/user-attachments/assets/e004e8b0-7b03-4bf2-8dc9-94b03c4382f5)
 
+![image](https://github.com/user-attachments/assets/3c553c19-ba63-4a0f-bd2d-d75a84eb4151)
 
-Sharing data to multiple pages using @SessionAttribute at class level
+![image](https://github.com/user-attachments/assets/039a25ff-0a78-48c3-9e97-f2235cf07db3)
