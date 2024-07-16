@@ -1,0 +1,22 @@
+
+
+Maven project - added autoconfigure maven properties to adjust all dependencies according to spring version
+Java configuration for hibernate,Db,entitymanager 
+
+no spring data jpa repositories
+
+EmployeeDao is a interface and this contains user defined methods(us) specific
+so we are noting this as a Repository i.e(Custom Repository); 
+@RepositoryDefinition(domainClass=Entity.class,idClass=Integer.class)
+
+we write named queries in orm.xml
+and the interface contains methods with @Query(namedQuery name)
+positional and named parameters used in named queries
+
+
+some custom methods can be determined automatically
+we are not creating these using named query in orm.xml
+findBYId(id)
+findByName(name)
+findByField(field)
+save(entity)
