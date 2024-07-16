@@ -22,5 +22,5 @@ delete Employee
 http://localhost:9090/emp/controller/delete/3  
 Get Employee By Range Salary  
 http://localhost:9090/emp/controller/getEmpSalary/50001.0-200000  
-Get Employees by user input for format
+Get Employees by user input for format  
 http://localhost:9090/emp/controller/get/format/json
